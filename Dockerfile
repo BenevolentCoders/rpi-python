@@ -8,9 +8,8 @@ FROM hypriot/rpi-alpine-scratch
 # 4. pip
 RUN apk update \
     && apk upgrade \
-    musl \
+    && apk add musl \
     python \
-    python-dev \
     py-virtualenv \
     py-pip \
     && rm -rf /var/cache/apk/*
