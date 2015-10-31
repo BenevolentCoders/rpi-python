@@ -1,5 +1,9 @@
 # rpi-python
 
+[![Image Layers](https://badge.imagelayers.io/benevolentcoders/rpi-python:latest.svg)](https://imagelayers.io/?images=benevolentcoders/rpi-python:latest)
+[![Docker Stars](https://img.shields.io/docker/stars/benevolentcoders/rpi-python.svg?style=flat-square)][hub]
+[![Docker Pulls](https://img.shields.io/docker/pulls/benevolentcoders/rpi-python.svg?style=flat-square)][hub]
+
 Raspberry Pi compatible python base image with pip and virtualenv
 
 Run all the commands from within the project root directory.
@@ -53,3 +57,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+[hub]: https://registry.hub.docker.com/u/benevolentcoders/rpi-python/
